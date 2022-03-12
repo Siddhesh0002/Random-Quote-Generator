@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  
+  max-width: 60vw;
+  max-height: 60vh;
+  background-color: white;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 30px;
+ 
+}
+.quote-num{
+  display: flex;
+  justify-content: center;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.description{
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Source Serif 4', sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.author{
+ text-align: right;
+ font-size: 25px;
+ font-family: 'Dancing Script', cursive;
+
+margin-top: 10px;
+}
+.new-quote-btn{
+  color: white;
+}
